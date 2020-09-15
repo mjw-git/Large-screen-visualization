@@ -2,6 +2,7 @@
     <div class="container">
         <div class="w">
             <div id="box1"></div>
+            <div id="time">{{time}}</div>
         </div>
         <div class="wcenter">
             <div class="line"></div>
@@ -19,7 +20,21 @@
 
 <script>
     export default {
-        
+        mounted () {
+            this.timer=setInterval(() => {
+               this.time=new Date().toLocaleString() 
+            }, 1000);
+        },
+        data() {
+            return {
+                timer:null,
+                time:''
+            }
+        },
+        beforeDestroy () {
+            clearInterval(this.timer);
+        },
+
     }
 </script>
 
