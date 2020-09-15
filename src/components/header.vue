@@ -5,6 +5,11 @@
         </div>
         <div class="wcenter">
             <div class="line"></div>
+            <div class="tc">
+                <div class="title">XXX科技有限公司</div>
+                <div class="line3"></div>
+            </div>
+            <div class="line1"></div>
         </div>
         <div class="w">
             <div id="box2"></div>
