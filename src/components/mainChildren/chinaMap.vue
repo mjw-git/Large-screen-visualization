@@ -1,6 +1,7 @@
 <template>
-    <div :style="{width:'100%'}">
-         <div :style="{height:'420px',width:'100%'}" ref="myEchart"></div>
+    <div id="con">
+         <div id="china"  ref="myEchart"></div>
+         <div class="item"></div>
     </div>
 </template>
 
@@ -16,5 +17,5 @@ import 'echarts/map/js/china'
 </script>
 
 <style lang="less" scoped>
-
+@import '../../assets/css/map.less';
 </style>
