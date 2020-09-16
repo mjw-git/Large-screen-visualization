@@ -21,6 +21,7 @@
 <script>
     export default {
         mounted () {
+            //时间初始化
             this.timer=setInterval(() => {
                this.time=new Date().toLocaleString() 
             }, 1000);
