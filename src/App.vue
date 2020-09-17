@@ -9,6 +9,7 @@
   padding: 0;
   margin: 0;
 }
+
 .body{
   box-sizing: border-box;
   width: 100%;
