@@ -262,7 +262,7 @@ var series = [];
     );
 });
 console.log(series)
-exports.option = {
+exports.option = {  
     tooltip: {
         trigger: 'item',
         backgroundColor: 'rgba(3, 21, 49, 0.82)',
