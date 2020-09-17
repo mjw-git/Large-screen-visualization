@@ -1,5 +1,6 @@
-# largescreen
 
+# largescreen
+### 像素:1920*1080   150%缩放
 ## Project setup
 ```
 yarn install
