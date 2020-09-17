@@ -20,3 +20,58 @@
         background: linear-gradient(to right,rgba(0,209,255,.2),rgb(41,106,232));
     }
 }
+.con1{
+    position: relative;
+    height: 100%;
+    width: 100%;
+  
+    .top{
+        box-sizing: border-box;
+        padding-top: 20px;
+        position: relative;
+        width: 100%;
+        height: 50%;
+        border-bottom:  2px rgb(5, 161, 209) solid;;
+    }
+    &::before{
+        content: '注册人数增长趋势';
+        width: 35%;
+        display: block;
+        position: absolute;
+        color: white;
+        font-size: 12px;
+        line-height: 20px;
+        height: 20px;
+        top: 0;
+        left: 0;
+        text-align: center;
+        border-top-left-radius: 15px;
+        border-bottom-right-radius:20px ;
+        border-bottom: 2px skyblue solid;
+        border-left: 2px skyblue solid;
+        background: linear-gradient(to left,rgba(0,209,255,.2),rgb(41,106,232))
+    }
+    .bottom{
+        box-sizing: border-box; 
+        position: relative;
+        width: 100%;
+        height: 50%;
+        &::before{
+            content: '部分地区加盟数量';
+            width: 35%;
+            display: block;
+            position: absolute;
+            color: white;
+            font-size: 12px;
+            line-height: 20px;
+            height: 20px;
+            top: 0;
+            right: 0;
+            text-align: center;
+            border-bottom-left-radius:20px ;
+            border-bottom: 2px skyblue solid;
+            border-left: 2px skyblue solid;
+            background: linear-gradient(to left,rgba(0,209,255,.2),rgb(41,106,232))
+        }
+    }
+}

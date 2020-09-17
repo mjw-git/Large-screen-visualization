@@ -8,7 +8,9 @@
         <div class="box">
           <Lb></Lb>
         </div>
-        <div class="box"></div>
+        <div class="box">
+          <Lbr></Lbr>
+        </div>
       </div>
     </div>
     <div class="con"></div>
@@ -17,11 +19,13 @@
 
 <script>
 import Lb from "./mainChildren/LBecharts";
+import Lbr from './mainChildren/LBRecharts';
 import Map from "./mainChildren/chinaMap";
 export default {
   components: {
     Map,
     Lb,
+    Lbr
   },
 };
 </script>
