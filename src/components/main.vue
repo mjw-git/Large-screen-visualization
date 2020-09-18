@@ -13,19 +13,25 @@
         </div>
       </div>
     </div>
-    <div class="con"></div>
+    <div class="con">
+      <div class="box">
+        <Re></Re>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-import Lb from "./mainChildren/LBecharts";
+import Lb from "./mainChildren/LBLecharts";
 import Lbr from './mainChildren/LBRecharts';
 import Map from "./mainChildren/chinaMap";
+import Re from './mainChildren/Recharts'
 export default {
   components: {
     Map,
     Lb,
-    Lbr
+    Lbr,
+    Re
   },
 };
 </script>

@@ -4,7 +4,7 @@ export const option1 = {
     backgroundColor: '',
     grid: {
         left: '1%',
-        right: '5%',
+        right: '10%',
         top: '10%',
         bottom: '5%',
         containLabel: true
