@@ -3,7 +3,7 @@
     <div class="box" ref="echart1"></div>
     <div class="box1" ref="echart2"></div>
     <div class="box2" ref="echart3"></div>
-    <div class="box3" ref="echart4">
+    <div class="box3" >
            <div class="heads">
                <div class="head">排名</div>
                <div class="head">公司名称</div>
@@ -15,12 +15,15 @@
                <div class="item">{{(10-index+1)*10}}万元</div>
            </div>
     </div>
+    <div class="box4" ref="echart4"></div>
+     <div class="box5" ref="echart5"></div>
+     
   </div>
 </template>
 
 <script>
 import vueSeamlessScroll from "vue-seamless-scroll";
-import { option1, option2, option3 } from "../../config/Recharts.config";
+import { option1, option2, option3,option4,option5 } from "../../config/Recharts.config";
 export default {
   mounted() {
     let myChart = this.$echarts.init(this.$refs.echart1);
@@ -29,6 +32,11 @@ export default {
     myChart2.setOption(option2);
     let myChart3 = this.$echarts.init(this.$refs.echart3);
     myChart3.setOption(option3);
+     let myChart4 = this.$echarts.init(this.$refs.echart4);
+    myChart4.setOption(option4);
+      let myChart5 = this.$echarts.init(this.$refs.echart5);
+    myChart5.setOption(option5);
+
   },
   components: {
     vueSeamlessScroll,

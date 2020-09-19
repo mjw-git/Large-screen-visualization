@@ -59,7 +59,7 @@
         }
     }
     .box2{
-        
+        margin-bottom: 1%;
         overflow: hidden;
         margin-right: 5%;
         position: relative;
@@ -90,7 +90,7 @@
         margin-right: 5%;
         position: relative;
         box-sizing: border-box;
-       
+        margin-bottom: 1%;
         padding-top: 20px;
         border-radius:20px;
         border:2px skyblue solid;
@@ -129,6 +129,7 @@
            height: 8%;
            display: flex;
            .item{
+               font-weight: 600;
                font-size: 12px;
                color: white;
                text-align: center;
@@ -136,5 +137,61 @@
                height: 8%;
            }
         }
+    }
+    .box4{
+        overflow: hidden;
+        margin-right: 5%;
+        position: relative;
+        box-sizing: border-box;
+        
+        padding-top: 20px;
+        border-radius:20px;
+        border:2px skyblue solid;
+        &::before{
+            color: white; 
+            font-size: 12px;
+            line-height: 20px;
+            text-align: center;
+            content: '各时间段系统活跃度';
+            display: block;
+            position: absolute;
+            width: 38%;
+            height: 20px;
+            border-bottom-right-radius: 20px;
+            border-bottom: 2px skyblue solid;
+            border-right: 2px skyblue solid;
+            top:0;
+            left:0;
+            background: linear-gradient(to right,rgba(0,209,255,.2),rgb(41,106,232));
+        }
+        
+    }
+    .box5{
+        overflow: hidden;
+        margin-right: 5%;
+        position: relative;
+        box-sizing: border-box;
+        
+        padding-top: 20px;
+        border-radius:20px;
+        border:2px skyblue solid;
+        &::before{
+            color: white; 
+            font-size: 12px;
+            line-height: 20px;
+            text-align: center;
+            content: '客服情况';
+            display: block;
+            position: absolute;
+            width: 38%;
+            height: 20px;
+            border-bottom-right-radius: 20px;
+            border-bottom: 2px skyblue solid;
+            border-right: 2px skyblue solid;
+            top:0;
+            left:0;
+            background: linear-gradient(to right,rgba(0,209,255,.2),rgb(41,106,232));
+        }
+        
     }
 }
